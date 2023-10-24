@@ -12,6 +12,18 @@
   font-weight: 800;
 }
 
+.screen-header__icon {
+  display: flex;
+}
+
 .screen-header__icon span {
   margin-left: 25px;
+}
+
+.screen-header__icon__reddot {
+  height: 5px;
+  width: 5px;
+  background-color: #e47878;
+  border-radius: 50%;
+  margin-top: -5px;
 }
