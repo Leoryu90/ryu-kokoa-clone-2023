@@ -1,7 +1,6 @@
 .find-icon {
   display: flex;
   justify-content: space-evenly;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .find-icon__icon {
@@ -17,4 +16,37 @@
 
 .find-icon__icon span {
   margin-top: 15px;
+}
+
+.recommended-friends {
+  border-bottom: var(--main-border);
+  border-top: var(--main-border);
+  padding: 25px 0px;
+  margin: 25px 0px;
+  font-size: 14px;
+}
+
+.recommended-friends__title {
+  color: var(--font-gray);
+}
+
+.recommended-friends span {
+  display: block;
+  text-align: center;
+  margin: 90px 0px;
+  color: var(--font-gray);
+  font-size: 16px;
+  font-weight: 600;
+  opacity: 90%;
+}
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.open-chat__header span {
+  display: flex;
+  align-items: baseline;
 }

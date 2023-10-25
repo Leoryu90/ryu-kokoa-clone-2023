@@ -29,7 +29,7 @@
 }
 
 #login-form input:not([type="submit"]) {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: var(--main-border);
   transition: 0.3s ease-in-out;
 }
 
