@@ -1,3 +1,46 @@
 .main-screen .icon-row {
   margin-top: 30px;
 }
+
+.more-suggestions {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: var(--main-border);
+}
+
+.more-suggestions h4 {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.more-suggestions__icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.more-suggestions__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-suggestions__icon-img {
+  color: white;
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.more-suggestions__icons-text {
+  font-weight: 600;
+  color: var(--font-gray);
+}
+
